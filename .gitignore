@@ -1,0 +1,34 @@
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Local environment variables
+.env
+.env.local
+.env.*.local
+**/.env
+**/.env.*
+
+# Angular / build outputs
+dist/
+tmp/
+out-tsc/
+.angular/
+frontend/dist/
+frontend/.angular/
+frontend/tmp/
+frontend/out-tsc/
+
+# IDE / Editor configuration
+.idea/
+.vscode/
+**/.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS metadata
+.DS_Store
+Thumbs.db
